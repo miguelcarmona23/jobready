@@ -1,0 +1,27 @@
+{
+  "name": "jobready",
+  "version": "1.0.0",
+  "description": "A job listing app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "job",
+    "indeed",
+    "indreed",
+    "jobs"
+  ],
+  "author": "Miguel Carmona",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-ip": "^1.0.4",
+    "handlebars": "^4.7.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
